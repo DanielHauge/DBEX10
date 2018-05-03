@@ -49,10 +49,11 @@ picture of plot from jupyter here
 
 #### Notes
 
-- The database is setup with these commands
+- The database is setup with these commands. Assumed that it is run with vagrantfile from this reposity, and in the synced folder.
 
 ```
-commands
+docker run -p 5432:5432 --rm -d -v $(pwd)/:/root/ --name psql postgres:alpine
+docker exec -it psql bash
+psql -U postgres < /root/Creation.sql
 ```
-
 - All executions after database setup, can be found in the jupyter notebook [here]()
