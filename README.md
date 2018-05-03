@@ -10,7 +10,37 @@ picture of idea modeler here
 
 #### Physical Data model
 ```
-sqldump here
+CREATE TABLE Locations(
+id INTEGER PRIMARY KEY,
+Countrycode VARCHAR
+);
+
+CREATE TABLE Subjects(
+id INTEGER PRIMARY KEY,
+SubjectType VARCHAR
+);
+
+CREATE TABLE Education(
+location INTEGER REFERENCES Locations(id),
+subject INTEGER REFERENCES Subjects(id),
+Time VARCHAR,
+Value DOUBLE PRECISION
+);
+
+CREATE TABLE Life(
+location INTEGER REFERENCES Locations(id),
+subject INTEGER REFERENCES Subjects(id),
+Time VARCHAR,
+Value DOUBLE PRECISION
+);
+
+CREATE TABLE GDP(
+location INTEGER REFERENCES Locations(id),
+subject INTEGER REFERENCES Subjects(id),
+Meassure_Type VARCHAR,
+Time VARCHAR,
+Value DOUBLE PRECISION
+);
 ```
 
 #### Plot
