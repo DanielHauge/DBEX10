@@ -6,7 +6,8 @@ This assignments task is to have a full round with sql. From conceptual idea to 
 
 ## Assignment
 #### Entity Relationship Diagram
-picture of idea modeler here
+
+![](https://raw.githubusercontent.com/DanielHauge/DBEX10/master/Chenerdiagram1.png)
 
 #### Physical Data model
 ```
