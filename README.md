@@ -56,6 +56,10 @@ Most grown country: Korea. With a GDP growth of roughly 9873% from 1960 to 2015.
 
 [![https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385](https://i.gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385.png)](https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385)
 
+#### Comments to plots.
+
+There was not any education data for brasilian before 2007, so the results are little scewered. However, it is clear to say. That it might indicate that with general national higher education, you can expect to live longer. But we can also infer that with GDP growth comes education level growth.
+
 #### Notes
 
 - The database is setup with these commands. Assumed that it is run with vagrantfile from this reposity, and in the synced folder.
