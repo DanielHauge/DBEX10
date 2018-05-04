@@ -45,7 +45,16 @@ Value DOUBLE PRECISION
 ```
 
 #### Plot
-picture of plot from jupyter here
+
+- Note: X axis is the level of education and Y axis is the life expectency.
+
+Least grown country: Brasilian. With A GDP growth of roughly 23% from 1960 to 2015
+
+[![https://gyazo.com/1f586085e92c1729bca29a08da836157](https://i.gyazo.com/1f586085e92c1729bca29a08da836157.png)](https://gyazo.com/1f586085e92c1729bca29a08da836157)
+
+Most grown country: Korea. With a GDP growth of roughly 9873% from 1960 to 2015.
+
+[![https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385](https://i.gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385.png)](https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385)
 
 #### Notes
 
