@@ -50,15 +50,15 @@ Value DOUBLE PRECISION
 
 Least grown country: Brasilian. With A GDP growth of roughly 23% from 1960 to 2015
 
-[![https://gyazo.com/1f586085e92c1729bca29a08da836157](https://i.gyazo.com/1f586085e92c1729bca29a08da836157.png)](https://gyazo.com/1f586085e92c1729bca29a08da836157)
+[![https://gyazo.com/b76cfd6e5d3e0e3e8d4e936ec40d8351](https://i.gyazo.com/b76cfd6e5d3e0e3e8d4e936ec40d8351.png)](https://gyazo.com/b76cfd6e5d3e0e3e8d4e936ec40d8351)
 
 Most grown country: Korea. With a GDP growth of roughly 9873% from 1960 to 2015.
 
-[![https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385](https://i.gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385.png)](https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385)
+[![https://gyazo.com/5d7ba88ec6f9bdf6a18666a8b72540d0](https://i.gyazo.com/5d7ba88ec6f9bdf6a18666a8b72540d0.png)](https://gyazo.com/5d7ba88ec6f9bdf6a18666a8b72540d0)
 
 #### Comments to plots.
 
-There was not any education data for brasilian before 2007, so the results are little scewered. However, it is clear to say. That it might indicate that with general national higher education, you can expect to live longer. But we can also infer that with GDP growth comes education level growth.
+There was not any education data for brasilian before 2007, so the results are little scewered. However, it is clear to say. That it might indicate that with general national higher education, you can expect to live longer. But we can also infer that with GDP growth comes education level growth, and therefor also higher life expectency.
 
 #### Notes
 
