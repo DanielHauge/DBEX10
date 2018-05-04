@@ -6,7 +6,8 @@ This assignments task is to have a full round with sql. From conceptual idea to 
 
 ## Assignment
 #### Entity Relationship Diagram
-picture of idea modeler here
+
+![](https://raw.githubusercontent.com/DanielHauge/DBEX10/master/Chenerdiagram1.png)
 
 #### Physical Data model
 ```
@@ -44,14 +45,24 @@ Value DOUBLE PRECISION
 ```
 
 #### Plot
-picture of plot from jupyter here
+
+- Note: X axis is the level of education and Y axis is the life expectency.
+
+Least grown country: Brasilian. With A GDP growth of roughly 23% from 1960 to 2015
+
+[![https://gyazo.com/1f586085e92c1729bca29a08da836157](https://i.gyazo.com/1f586085e92c1729bca29a08da836157.png)](https://gyazo.com/1f586085e92c1729bca29a08da836157)
+
+Most grown country: Korea. With a GDP growth of roughly 9873% from 1960 to 2015.
+
+[![https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385](https://i.gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385.png)](https://gyazo.com/2bdc11dcf2c1c9ee2d44c88b86add385)
 
 #### Notes
 
-- The database is setup with these commands
+- The database is setup with these commands. Assumed that it is run with vagrantfile from this reposity, and in the synced folder.
 
 ```
-commands
+docker run -p 5432:5432 --rm -d -v $(pwd)/:/root/ --name psql postgres:alpine
+docker exec -it psql bash
+psql -U postgres < /root/Creation.sql
 ```
-
 - All executions after database setup, can be found in the jupyter notebook [here]()
